@@ -9,6 +9,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 15px  0px;
 }
 .mid_section {
     display: flex;
@@ -41,6 +42,7 @@
     line-height: 
     24px;
     width: 85%;
+    margin-top: 25px;
 }
 .banner_date {
     display: flex;
