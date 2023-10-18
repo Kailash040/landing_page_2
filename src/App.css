@@ -118,5 +118,50 @@
     margin-top: 10px;
 }
 .top_section_container{
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 3rem;
 }
+.wireless_earbuds_container{
+    display: flex;
+}
+.wireless_earbuds_container img{
+    width: 45.08px;
+    height: 40px;
+}
+.wireless_earbuds_container :nth-child(2){
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    right: 15px;
+}
+.wireless_earbuds_container_paragraph  p{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.wireless_earbuds_name_container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.wireless_earbuds_name :first-child{
+font-size: 14px;
+font-weight: 500;
+}
+.wireless_earbuds_name  :last-child{
+    font-size: 12px;
+    font-weight: 400;
+    }
+    .right_section_container{
+        background-color: 
+        #9DB8C9;
+        color: white;
+        /* padding: 10px; */
+        border-bottom: 2px solid #FFFFFF;
+    }
+    .card3{
+        padding: 15px;
+    }

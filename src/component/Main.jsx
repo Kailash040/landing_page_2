@@ -12,7 +12,8 @@ import Card from "../assets/images/top_section_images/Card.png";
 import photo from '../assets/images/top_section_images/photo.png'
 import photo_2 from '../assets/images/top_section_images/photo_2.png'
 import photo_3 from '../assets/images/top_section_images/photo_3.png'
-
+import Quote from '../assets/images/top_section_images/Quote.png'
+import profile from '../assets/images/top_section_images/profile.png'
 const Main = () => {
   return (
     <div className="main_container">
@@ -93,9 +94,9 @@ const Main = () => {
         </div>
       </main>
       <section className="top_section_container">
-        <div className="container">
+        <div className="" >
           <div className="row">
-            <div className="col-lg-10">
+            <div className="col-lg-9">
               <div className="left_section_container">
                 <div className="">
                   <div className="top_left_section_container">
@@ -126,7 +127,7 @@ const Main = () => {
                         </div>
                         <div className="top_left_card2">
                           <div className="card2">
-                            <img src={Card} alt="card" />
+                            <img src={Card}  alt="card" />
                           </div>
 
                         </div>
@@ -134,7 +135,7 @@ const Main = () => {
                       <div className="top_left_bottom">
 
                         <div className="card2">
-                          <img src={photo} alt="" />
+                          <img src={photo} className="img-fluid" alt="" />
                           <p>Fashion</p>
                           <p>Stylish young man out in town</p>
                           <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
@@ -144,7 +145,7 @@ const Main = () => {
                           </div>
                         </div>
                         <div className="card2">
-                          <img src={photo_2} alt="" />
+                          <img src={photo_2} className="img-fluid" alt="" />
                           <p>Fashion</p>
                           <p>Aptkdoe Smartwatch Women Men </p>
                           <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
@@ -154,7 +155,7 @@ const Main = () => {
                           </div>
                         </div>
                         <div className="card2">
-                          <img src={photo_3} alt="" />
+                          <img src={photo_3} className="img-fluid" alt="" />
                           <p>Fashion</p>
                           <p>Anker 325 power bank</p>
                           <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
@@ -169,7 +170,86 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2">container</div>
+            <div className="col-lg-3">
+              <div className="right_section_container">
+                <div className="card3">
+                  <div className="wireless_earbuds_container">
+                    <img src={Quote} className="img-fluid" alt="Quote" />
+                    <p>Wireless Earbuds</p>
+                  </div>
+                  <div className="wireless_earbuds_container_paragraph">
+                    
+                    <p>"I've been using the XYZ Wireless Earbuds for a few weeks now, and they've completely...</p>
+                  </div>
+                  <div className="wireless_earbuds_name_container">
+                    <div className="wireless_earbuds_name_img">
+                      <img src={profile}  alt="" />
+                    </div>
+                    <div className="wireless_earbuds_name">
+                      <li>Nina Markez</li>
+                      <li>Programmer</li>
+                    </div>
+                  </div>
+                </div>
+                <div className="card3">
+                  <div className="wireless_earbuds_container">
+                    <img src={Quote} className="img-fluid" alt="Quote" />
+                    <p>Wireless Earbuds</p>
+                  </div>
+                  <div className="wireless_earbuds_container_paragraph">
+                    
+                    <p>"I've been using the XYZ Wireless Earbuds for a few weeks now, and they've completely...</p>
+                  </div>
+                  <div className="wireless_earbuds_name_container">
+                    <div className="wireless_earbuds_name_img">
+                      <img src={profile}  alt="" />
+                    </div>
+                    <div className="wireless_earbuds_name">
+                      <li>Nina Markez</li>
+                      <li>Programmer</li>
+                    </div>
+                  </div>
+                </div>
+                <div className="card3">
+                  <div className="wireless_earbuds_container">
+                    <img src={Quote} className="img-fluid" alt="Quote" />
+                    <p>Wireless Earbuds</p>
+                  </div>
+                  <div className="wireless_earbuds_container_paragraph">
+                    
+                    <p>"I've been using the XYZ Wireless Earbuds for a few weeks now, and they've completely...</p>
+                  </div>
+                  <div className="wireless_earbuds_name_container">
+                    <div className="wireless_earbuds_name_img">
+                      <img src={profile}  alt="" />
+                    </div>
+                    <div className="wireless_earbuds_name">
+                      <li>Nina Markez</li>
+                      <li>Programmer</li>
+                    </div>
+                  </div>
+                </div>
+                <div className="card3">
+                  <div className="wireless_earbuds_container">
+                    <img src={Quote} className="img-fluid" alt="Quote" />
+                    <p>Wireless Earbuds</p>
+                  </div>
+                  <div className="wireless_earbuds_container_paragraph">
+                    
+                    <p>"I've been using the XYZ Wireless Earbuds for a few weeks now, and they've completely...</p>
+                  </div>
+                  <div className="wireless_earbuds_name_container">
+                    <div className="wireless_earbuds_name_img">
+                      <img src={profile}  alt="" />
+                    </div>
+                    <div className="wireless_earbuds_name">
+                      <li>Nina Markez</li>
+                      <li>Programmer</li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
