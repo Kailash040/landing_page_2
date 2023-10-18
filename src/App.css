@@ -64,6 +64,7 @@
 }
 .banner_container{
     position: relative;
+     margin-bottom: 3rem;
 }
 .banner_image_decription_container{
     position: absolute;
@@ -118,11 +119,10 @@
     margin-top: 10px;
 }
 .top_section_container{
-    /* margin-top: 3rem; */
     width: 90%;
     margin: auto;
-    position: relative;
-    top: 3rem;
+    margin-bottom: 3rem;
+  
 }
 .wireless_earbuds_container{
     display: flex;
@@ -164,4 +164,22 @@ font-weight: 500;
     }
     .card3{
         padding: 15px;
+    
     }
+  
+    .fashion_summary_container p{
+font-size: 24px;
+font-weight: 700;
+padding: 15px;
+border-left: 5px solid #4172DC;
+    }
+    .fashion_summary_container{
+        margin: auto;
+        width: 90%;
+    }
+    .fashion_summary_container li{
+        padding-left: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px
+    } 
