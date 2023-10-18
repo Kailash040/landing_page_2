@@ -25,26 +25,46 @@
     display: flex;
     gap: 20px;
 }
+.banner_image_decription_container{
+    color: white;
+}
 .banner_image_decription_container h3{
     font-size: 40px;
     font-weight: 800;
+    line-height: 56px;
     text-transform: uppercase;
 }
 .banner_image_decription_container p{
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-
+    line-height: 
+    24px;
+    width: 85%;
 }
 .banner_date {
     display: flex;
     gap: 10px;
     font-size: 12px;
     font-weight: 400;
+    margin: 25px 0px;
+
 }
 .banner_read_more_button button{
     font-size: 14px;
     border:1px solid #D9D9D9;
-    background-color:white;
-    padding: 10px 15px;
+    background-color:#b19ac8;
+    padding: 10px 20px;
+    color: white;
+}
+.banner_image_container img{
+    width: 100%;
+}
+.banner_container{
+    position: relative;
+}
+.banner_image_decription_container{
+    position: absolute;
+    top: 20%;
+    left: 15%;
 }
