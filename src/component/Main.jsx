@@ -9,11 +9,16 @@ import Comment from "../assets/images/top_section_images/Comment.png";
 import banner_img from "../assets/images/banner_image/banner_img.png";
 import style_women from "../assets/images/top_section_images/style_women.png";
 import Card from "../assets/images/top_section_images/Card.png";
-import photo from '../assets/images/top_section_images/photo.png'
-import photo_2 from '../assets/images/top_section_images/photo_2.png'
-import photo_3 from '../assets/images/top_section_images/photo_3.png'
-import Quote from '../assets/images/top_section_images/Quote.png'
-import profile from '../assets/images/top_section_images/profile.png'
+import photo from "../assets/images/top_section_images/photo.png";
+import photo_2 from "../assets/images/top_section_images/photo_2.png";
+import photo_3 from "../assets/images/top_section_images/photo_3.png";
+import Quote from "../assets/images/top_section_images/Quote.png";
+import profile from "../assets/images/top_section_images/profile.png";
+import image from "../assets/images/model_images/image.png";
+import image_229 from "../assets/images/model_images/image_229.png";
+import image_231 from "../assets/images/model_images/image_231.png";
+import image_299 from "../assets/images/model_images/image_299.png";
+
 const Main = () => {
   return (
     <div className="main_container">
@@ -94,7 +99,7 @@ const Main = () => {
         </div>
       </main>
       <section className="top_section_container">
-        <div className="" >
+        <div className="">
           <div className="row">
             <div className="col-lg-9">
               <div className="left_section_container">
@@ -127,18 +132,21 @@ const Main = () => {
                         </div>
                         <div className="top_left_card2">
                           <div className="card2">
-                            <img src={Card}  alt="card" />
+                            <img src={Card} alt="card" />
                           </div>
-
                         </div>
                       </div>
                       <div className="top_left_bottom">
-
                         <div className="card2">
                           <img src={photo} className="img-fluid" alt="" />
                           <p>Fashion</p>
                           <p>Stylish young man out in town</p>
-                          <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
+                          <p>
+                            In the heart of the bustling city, a stylish young
+                            man navigates the urban landscape with an air of
+                            contemporary confidence. His ensemble effortlessly
+                            captures the essence of city chic...
+                          </p>
                           <div className="card_comment">
                             <li>3 hours ago</li>
                             <li>12</li>
@@ -148,7 +156,12 @@ const Main = () => {
                           <img src={photo_2} className="img-fluid" alt="" />
                           <p>Fashion</p>
                           <p>Aptkdoe Smartwatch Women Men </p>
-                          <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
+                          <p>
+                            In the heart of the bustling city, a stylish young
+                            man navigates the urban landscape with an air of
+                            contemporary confidence. His ensemble effortlessly
+                            captures the essence of city chic...
+                          </p>
                           <div className="card_comment">
                             <li>3 hours ago</li>
                             <li>12</li>
@@ -158,7 +171,12 @@ const Main = () => {
                           <img src={photo_3} className="img-fluid" alt="" />
                           <p>Fashion</p>
                           <p>Anker 325 power bank</p>
-                          <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
+                          <p>
+                            In the heart of the bustling city, a stylish young
+                            man navigates the urban landscape with an air of
+                            contemporary confidence. His ensemble effortlessly
+                            captures the essence of city chic...
+                          </p>
                           <div className="card_comment">
                             <li>3 hours ago</li>
                             <li>12</li>
@@ -178,12 +196,14 @@ const Main = () => {
                     <p>Wireless Earbuds</p>
                   </div>
                   <div className="wireless_earbuds_container_paragraph">
-                    
-                    <p>"I've been using the XYZ Wireless Earbuds for a few weeks now, and they've completely...</p>
+                    <p>
+                      "I've been using the XYZ Wireless Earbuds for a few weeks
+                      now, and they've completely...
+                    </p>
                   </div>
                   <div className="wireless_earbuds_name_container">
                     <div className="wireless_earbuds_name_img">
-                      <img src={profile}  alt="" />
+                      <img src={profile} alt="" />
                     </div>
                     <div className="wireless_earbuds_name">
                       <li>Nina Markez</li>
@@ -197,12 +217,14 @@ const Main = () => {
                     <p>Wireless Earbuds</p>
                   </div>
                   <div className="wireless_earbuds_container_paragraph">
-                    
-                    <p>"I've been using the XYZ Wireless Earbuds for a few weeks now, and they've completely...</p>
+                    <p>
+                      "I've been using the XYZ Wireless Earbuds for a few weeks
+                      now, and they've completely...
+                    </p>
                   </div>
                   <div className="wireless_earbuds_name_container">
                     <div className="wireless_earbuds_name_img">
-                      <img src={profile}  alt="" />
+                      <img src={profile} alt="" />
                     </div>
                     <div className="wireless_earbuds_name">
                       <li>Nina Markez</li>
@@ -216,12 +238,14 @@ const Main = () => {
                     <p>Wireless Earbuds</p>
                   </div>
                   <div className="wireless_earbuds_container_paragraph">
-                    
-                    <p>"I've been using the XYZ Wireless Earbuds for a few weeks now, and they've completely...</p>
+                    <p>
+                      "I've been using the XYZ Wireless Earbuds for a few weeks
+                      now, and they've completely...
+                    </p>
                   </div>
                   <div className="wireless_earbuds_name_container">
                     <div className="wireless_earbuds_name_img">
-                      <img src={profile}  alt="" />
+                      <img src={profile} alt="" />
                     </div>
                     <div className="wireless_earbuds_name">
                       <li>Nina Markez</li>
@@ -235,12 +259,14 @@ const Main = () => {
                     <p>Wireless Earbuds</p>
                   </div>
                   <div className="wireless_earbuds_container_paragraph">
-                    
-                    <p>"I've been using the XYZ Wireless Earbuds for a few weeks now, and they've completely...</p>
+                    <p>
+                      "I've been using the XYZ Wireless Earbuds for a few weeks
+                      now, and they've completely...
+                    </p>
                   </div>
                   <div className="wireless_earbuds_name_container">
                     <div className="wireless_earbuds_name_img">
-                      <img src={profile}  alt="" />
+                      <img src={profile} alt="" />
                     </div>
                     <div className="wireless_earbuds_name">
                       <li>Nina Markez</li>
@@ -253,25 +279,62 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <article >
+      <article>
         <div className="fashion_summary_container">
-
-<p>"Unveiling Timeless Elegance: Exploring the Allure of Vintage Fashion"</p>
-<li>The Essence of Time Travel</li>
-<li>Vintage fashion allows us to transcend eras, stepping into the shoes of those who came before us. Each piece tells a story, offering a glimpse into the cultural and societal norms of its time. From the flapper dresses of the 1920s that embodied the spirit of rebellion to the tailored suits of the 1960s that epitomized sophistication, every era has its signature style waiting to be revived.</li>
-<li>Quality Beyond Compare</li>
-<li>One of the hallmarks of vintage fashion is the unparalleled craftsmanship that went into creating garments that stood the test of time. In a world where fast fashion often prioritizes quantity over quality, vintage pieces remind us of an era when attention to detail and durability were paramount. The feel of a vintage silk dress or the weight of a hand-sewn coat is a testament to the dedication of artisans of yesteryears.</li>
-<li>Eclectic Personal Style</li>
-<li>Embracing vintage fashion allows us to curate a wardrobe that's uniquely ours. Mixing and matching vintage pieces with contemporary items creates a personal style that defies categorization. From pairing a 1970s bohemian blouse with modern jeans to accessorizing a little black dress with vintage brooches, the possibilities are endless and the results are often strikingly original.</li>
-<li>Sustainable Chic</li>
-<li>
-
-
-
-
-As the world embraces sustainability, vintage fashion takes center stage as a prime example of eco-conscious style. Choosing pre-loved clothing not only reduces the demand for new production but also breathes new life into garments that might otherwise be forgotten. It's a nod to slow fashion, a movement that encourages thoughtful consumption and reduces the impact on the environment.</li>
+          <p>
+            "Unveiling Timeless Elegance: Exploring the Allure of Vintage
+            Fashion"
+          </p>
+          <li>The Essence of Time Travel</li>
+          <li>
+            Vintage fashion allows us to transcend eras, stepping into the shoes
+            of those who came before us. Each piece tells a story, offering a
+            glimpse into the cultural and societal norms of its time. From the
+            flapper dresses of the 1920s that embodied the spirit of rebellion
+            to the tailored suits of the 1960s that epitomized sophistication,
+            every era has its signature style waiting to be revived.
+          </li>
+          <li>Quality Beyond Compare</li>
+          <li>
+            One of the hallmarks of vintage fashion is the unparalleled
+            craftsmanship that went into creating garments that stood the test
+            of time. In a world where fast fashion often prioritizes quantity
+            over quality, vintage pieces remind us of an era when attention to
+            detail and durability were paramount. The feel of a vintage silk
+            dress or the weight of a hand-sewn coat is a testament to the
+            dedication of artisans of yesteryears.
+          </li>
+          <li>Eclectic Personal Style</li>
+          <li>
+            Embracing vintage fashion allows us to curate a wardrobe that's
+            uniquely ours. Mixing and matching vintage pieces with contemporary
+            items creates a personal style that defies categorization. From
+            pairing a 1970s bohemian blouse with modern jeans to accessorizing a
+            little black dress with vintage brooches, the possibilities are
+            endless and the results are often strikingly original.
+          </li>
+          <li>Sustainable Chic</li>
+          <li>
+            As the world embraces sustainability, vintage fashion takes center
+            stage as a prime example of eco-conscious style. Choosing pre-loved
+            clothing not only reduces the demand for new production but also
+            breathes new life into garments that might otherwise be forgotten.
+            It's a nod to slow fashion, a movement that encourages thoughtful
+            consumption and reduces the impact on the environment.
+          </li>
         </div>
       </article>
+      <div className="model_container_img row">
+        <div className="left_img_container col-lg-9">
+         
+          <img src={image_229} alt="image_229" style={{"width":"100%"}} />
+        </div>
+        <div className="right_img_container col-lg-3">
+          <img src={image} alt="image" className="img-fluid" />
+          <img src={image_231} alt="image_231" className="img-fluid" />
+          <img src={image_299} alt="image_299" className="img-fluid" />
+        </div>
+      </div>
     </div>
   );
 };
