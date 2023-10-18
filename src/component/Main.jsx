@@ -124,10 +124,10 @@ const Main = () => {
                           <div className="card2">
                             <img src={Card} alt="" />
                           </div>
-                          
+
                         </div>
                       </div>
-                      <div className="top_left_bottom"></div>
+                      <div className="top_left_bottom">hello</div>
                     </div>
                   </div>
                 </div>
