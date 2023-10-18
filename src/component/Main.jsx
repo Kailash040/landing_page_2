@@ -9,6 +9,10 @@ import Comment from "../assets/images/top_section_images/Comment.png";
 import banner_img from "../assets/images/banner_image/banner_img.png";
 import style_women from "../assets/images/top_section_images/style_women.png";
 import Card from "../assets/images/top_section_images/Card.png";
+import photo from '../assets/images/top_section_images/photo.png'
+import photo_2 from '../assets/images/top_section_images/photo_2.png'
+import photo_3 from '../assets/images/top_section_images/photo_3.png'
+
 const Main = () => {
   return (
     <div className="main_container">
@@ -122,12 +126,44 @@ const Main = () => {
                         </div>
                         <div className="top_left_card2">
                           <div className="card2">
-                            <img src={Card} alt="" />
+                            <img src={Card} alt="card" />
                           </div>
 
                         </div>
                       </div>
-                      <div className="top_left_bottom">hello</div>
+                      <div className="top_left_bottom">
+
+                        <div className="card2">
+                          <img src={photo} alt="" />
+                          <p>Fashion</p>
+                          <p>Stylish young man out in town</p>
+                          <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
+                          <div className="card_comment">
+                            <li>3 hours ago</li>
+                            <li>12</li>
+                          </div>
+                        </div>
+                        <div className="card2">
+                          <img src={photo_2} alt="" />
+                          <p>Fashion</p>
+                          <p>Aptkdoe Smartwatch Women Men </p>
+                          <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
+                          <div className="card_comment">
+                            <li>3 hours ago</li>
+                            <li>12</li>
+                          </div>
+                        </div>
+                        <div className="card2">
+                          <img src={photo_3} alt="" />
+                          <p>Fashion</p>
+                          <p>Anker 325 power bank</p>
+                          <p>In the heart of the bustling city, a stylish young man navigates the urban landscape with an air of contemporary confidence. His ensemble effortlessly captures the essence of city chic...</p>
+                          <div className="card_comment">
+                            <li>3 hours ago</li>
+                            <li>12</li>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
