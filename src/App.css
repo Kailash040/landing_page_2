@@ -70,3 +70,20 @@
     top: 20%;
     left: 15%;
 }
+.top_left_card1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.top_left_card1 p:first-child{
+    font-size: 20px;
+    font-weight: 600;
+} 
+.top_left_card1 p:nth-child(2){
+    font-size: 14px;
+    line-height: 19px;
+} 
+.top_left_top{
+    display: flex;
+    gap: 10px;
+}
