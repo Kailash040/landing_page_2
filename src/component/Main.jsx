@@ -34,6 +34,22 @@ const Main = () => {
           <li><a href=""> <img src={Instagram} alt="" /></a></li>
           <li><a href=""><img src={Twitter} alt="" /></a></li></div></div>
       </nav>
+      <main className="banner_container">
+<div className="banner_image_container"></div>
+<div className="banner_image_decription_container container-sm">
+  <h3>Stunning barefooted woman of 2023</h3>
+  <p>In the heart of a chic urban studio, the atmosphere buzzed with excitement as a trendy fur coat took center stage during a vibrant photoshoot.</p>
+  <div className="banner_date">
+    <li>20 July 2023</li>
+    <li>830</li>
+    <li>19</li>
+  </div>
+  <div className="banner_read_more_button">
+    <button className="banner_button">READ MORE </button>
+  </div>
+</div>
+
+      </main>
     </div>
   );
 };
