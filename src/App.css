@@ -1,312 +1,293 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px  0px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
 }
 .mid_section {
-    display: flex;
-    gap: 40px;
-    text-decoration: none;
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
 }
-.mid_section  li a{
-   color: #939699;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 14px;
+.mid_section li a {
+  color: #939699;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 14px;
 }
-.social_media_icons_container{
-    display: flex;
-    gap: 20px;
+.social_media_icons_container {
+  display: flex;
+  gap: 20px;
 }
-.banner_image_decription_container{
-    color: white;
+.banner_image_decription_container {
+  color: white;
 }
-.banner_image_decription_container h3{
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 56px;
-    text-transform: uppercase;
+.banner_image_decription_container h3 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 56px;
+  text-transform: uppercase;
 }
-.banner_image_decription_container p{
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 
-    24px;
-    width: 85%;
-    margin-top: 25px;
+.banner_image_decription_container p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 24px;
+  width: 85%;
+  margin-top: 25px;
 }
 .banner_date {
-    display: flex;
-    gap: 10px;
-    font-size: 12px;
-    font-weight: 400;
-    margin: 25px 0px;
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 25px 0px;
+}
+.banner_read_more_button button {
+  font-size: 14px;
+  border: 1px solid #d9d9d9;
+  background-color: #b19ac8;
+  padding: 10px 20px;
+  color: white;
+}
+.banner_image_container img {
+  width: 100%;
+  height: 100vh;
+}
+.banner_container {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.banner_image_decription_container {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+.top_left_card1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.top_left_card1 p:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+.top_left_card1 p:nth-child(2) {
+  font-size: 14px;
+  line-height: 19px;
+}
+.top_left_top {
+  display: flex;
+  gap: 10px;
+}
+.card2 p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ff7a00;
+}
+.card2 p:nth-child(3) {
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+}
+.card2 p:nth-child(4) {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 25px;
+}
+.card_comment {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #9d9d9d;
+}
+.top_left_bottom {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.top_section_container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.wireless_earbuds_container {
+  display: flex;
+}
+.wireless_earbuds_container img {
+  width: 45.08px;
+  height: 40px;
+}
+.wireless_earbuds_container :nth-child(2) {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  right: 15px;
+}
+.wireless_earbuds_container_paragraph p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.wireless_earbuds_name_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.wireless_earbuds_name :first-child {
+  font-size: 14px;
+  font-weight: 500;
+}
+.wireless_earbuds_name :last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+.right_section_container {
+  background-color: #9db8c9;
+  color: white;
+  /* padding: 10px; */
+  border-bottom: 2px solid #ffffff;
+}
+.card3 {
+  padding: 15px;
+}
 
+.fashion_summary_container p {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px;
+  border-left: 5px solid #4172dc;
 }
-.banner_read_more_button button{
-    font-size: 14px;
-    border:1px solid #D9D9D9;
-    background-color:#b19ac8;
-    padding: 10px 20px;
-    color: white;
+.fashion_summary_container {
+  margin: auto;
+  width: 90%;
 }
-.banner_image_container img{
+.fashion_summary_container li {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.model_container_img {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+}
+.right_img_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.footer_container {
+  margin-top: 5rem;
+  /* margin-bottom: 5rem; */
+  padding: 5rem 0px;
+  background-color: #d1e2eb;
+}
+.form_gmail_container {
+  position: relative;
+}
+.form_button_container {
+  position: absolute !important;
+  right: 0px;
+  z-index: 10 !important;
+}
+.footer_gmail__register_container {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.table_row td {
+  padding: 15px 0px 0px 25px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer_logo {
+  margin-bottom: 1.5rem;
+}
+.footer_gmail__register_container p {
+  margin-bottom: 1.5rem;
+}
+/* ///// media queries///// */
+@media (max-width: 800px) {
+  .mid_section {
+    display: none;
+  }
+}
+@media (max-width: 478px) {
+  .banner_image_decription_container h3 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .banner_image_decription_container p {
+    font-size: 12px;
+
+    line-height: 24px;
     width: 100%;
-    height: 100vh;
-}
-.banner_container{
-    position: relative;
-     margin-bottom: 3rem;
-}
-.banner_image_decription_container{
-    position: absolute;
-    top: 20%;
-    left: 15%;
-}
-.top_left_card1{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-
-}
-.top_left_card1 p:first-child{
-    font-size: 20px;
-    font-weight: 600;
-} 
-.top_left_card1 p:nth-child(2){
-    font-size: 14px;
-    line-height: 19px;
-} 
-.top_left_top{
-    display: flex;
-    gap: 10px;
-}
-.card2 p:nth-child(2){
-    font-size: 14px;
-    font-weight: 400;
-    color: #FF7A00;
-}
-.card2 p:nth-child(3){
-    font-size: 16px;
-    font-weight: 700;
-    color: #262626;
-}
-.card2 p:nth-child(4){
-    font-size: 16px;
-    font-weight: 400;
-    color: #555555;
-    line-height: 25px;
-}
-.card_comment{
-    display: flex;
-    gap: 10px;
+    margin-top: 12px;
+  }
+  .banner_date {
+    margin: 12px 0px;
+  }
+  .banner_image_container img {
+    /* width: 100%; */
+    height: 80vh;
+  }
+  .top_left_card1 p:first-child {
     font-size: 12px;
-    font-weight: 400;
-    color: #9D9D9D;
-}
-.top_left_bottom{
+    padding-bottom: 0rem !important;
+  }
+  .top_left_card1 p:nth-child(2) {
+    font-size: 10px;
+    line-height: 15px;
+    padding-bottom: 0rem !important;
+  }
+  .img-fluid_1 {
+    width: 123px;
+    height: 194px;
+  }
+  .img-fluid_2 {
+    width: 142px;
+    height: 194px;
+  }
+  .top_left_card1 {
     display: flex;
     gap: 10px;
-    margin-top: 10px;
-}
-.top_section_container{
-    width: 90%;
+    align-items: start;
+  }
+  .card_button {
+    font-size: 7.35px !important;
+    padding: 5px 5px !important;
+    position: relative;
+    bottom: 0.8rem;
+  }
+  .top_left_bottom {
+    flex-wrap: wrap;
+  }
+  .card2 {
+    width: 70%;
     margin: auto;
-    margin-bottom: 3rem;
-  
+  }
+  .right_section_container {
+    margin-top: 2rem;
+  }
+  .right_img_container {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .footer_gmail__register_container {
+    font-size: 19px;
+  }
+  .footer_container {
+    padding: 2rem 0px;
+  }
 }
-.wireless_earbuds_container{
-    display: flex;
-}
-.wireless_earbuds_container img{
-    width: 45.08px;
-    height: 40px;
-}
-.wireless_earbuds_container :nth-child(2){
-    font-size: 20px;
-    font-weight: 700;
-    position: relative;
-    right: 15px;
-}
-.wireless_earbuds_container_paragraph  p{
-    font-size: 16px;
-    font-weight: 400;
-
-}
-.wireless_earbuds_name_container{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-.wireless_earbuds_name :first-child{
-font-size: 14px;
-font-weight: 500;
-}
-.wireless_earbuds_name  :last-child{
-    font-size: 12px;
-    font-weight: 400;
-    }
-    .right_section_container{
-        background-color: 
-        #9DB8C9;
-        color: white;
-        /* padding: 10px; */
-        border-bottom: 2px solid #FFFFFF;
-    }
-    .card3{
-        padding: 15px;
-    
-    }
-  
-    .fashion_summary_container p{
-font-size: 24px;
-font-weight: 700;
-padding: 15px;
-border-left: 5px solid #4172DC;
-    }
-    .fashion_summary_container{
-        margin: auto;
-        width: 90%;
-    }
-    .fashion_summary_container li{
-        padding-left: 15px;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 30px
-    } 
-    .model_container_img{
-        display: flex;
-        width: 90%;
-        margin: auto;
-        margin-top: 3rem;
-    }
-    .right_img_container{
-        display: flex;
-        flex-direction: column;
-        gap: 2.5rem;
-    }
-    .footer_container{
-        margin-top: 5rem;
-        /* margin-bottom: 5rem; */
-        padding: 5rem 0px;
-        background-color: #D1E2EB;
-    }
-    .form_gmail_container{
-        position: relative;
-    }
-    .form_button_container{
-        position: absolute !important;
-        right: 0px;
-        z-index: 10 !important;
-    }
-    .footer_gmail__register_container{
-        font-size: 20px;
-        font-weight: 400;
-
-    }
-
-  
-    .table_row td{
-        padding: 15px 0px 0px 25px;
-        font-weight: 700;
-        font-size: 14px;
-    }
-    .footer_logo{
-        margin-bottom: 1.5rem;
-    }
-    .footer_gmail__register_container p{
-margin-bottom: 1.5rem;
-    }
-    /* ///// media queries///// */
-    @media(max-width:800px){
-        .mid_section{
-            display: none;
-        }
-    }
-    @media(max-width:478px){
-        .banner_image_decription_container h3 {
-            font-size: 16px;
-            line-height: 28px;
-           
-        }
-        .banner_image_decription_container p {
-            font-size: 12px;
-           
-            line-height: 24px;
-            width: 100%;
-            margin-top: 12px;
-        }
-        .banner_date {
-          
-            margin: 12px 0px;
-        }
-        .banner_image_container img {
-            /* width: 100%; */
-            height: 80vh;
-        }
-        .top_left_card1 p:first-child {
-            font-size: 12px;
-            padding-bottom: 0rem !important;
-
-        }
-        .top_left_card1 p:nth-child(2) {
-            font-size: 10px;
-            line-height: 15px;
-            padding-bottom: 0rem !important;
-        }
-        .img-fluid_1{
-            width: 123px;
-            height: 194px;
-
-        }
-        .img-fluid_2{
-            width: 142px;
-            height: 194px;
-            
-        }
-        .top_left_card1 {
-            display: flex;
-            gap: 10px;
-            align-items: start;
-        }
-        .card_button{
-            font-size: 7.35px !important;
-            padding: 5px 5px  !important;
-            position: relative;
-            bottom: 0.8rem;
-        
-        }
-        .top_left_bottom {
-          
-            flex-wrap: wrap;
-        }
-        .card2{
-            width: 70%;
-            margin: auto;
-        }
-        .right_section_container {
-           
-            margin-top: 2rem;
-        }
-        .right_img_container {
-           
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-        .footer_gmail__register_container {
-            font-size: 19px;
-        }
-        .footer_container {
-            
-            padding: 2rem 0px;
-        }
-    }

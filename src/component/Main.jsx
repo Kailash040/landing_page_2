@@ -117,19 +117,30 @@ const Main = () => {
                               In this captivating scene, a stylish woman stands
                               confidently against a pristine backdrop, capturing
                               the essence of summer's allure. Bathed in the
-                              gentle 
+                              gentle
                             </p>
-                            <button type="button" class="btn btn-primary card_button">
+                            <button
+                              type="button"
+                              class="btn btn-primary card_button"
+                            >
                               Read more
                             </button>
                           </div>
                           <div className="top_left_card1_rigth">
-                            <img src={style_women} className="img-fluid_1" alt="" />
+                            <img
+                              src={style_women}
+                              className="img-fluid_1"
+                              alt=""
+                            />
                           </div>
                         </div>
                         <div className="top_left_card2">
                           <div className="card2">
-                            <img src={Card} alt="card" className="img-fluid_2" />
+                            <img
+                              src={Card}
+                              alt="card"
+                              className="img-fluid_2"
+                            />
                           </div>
                         </div>
                       </div>
