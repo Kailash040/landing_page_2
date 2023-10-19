@@ -101,12 +101,12 @@ const Main = () => {
       <section className="top_section_container">
         <div className="">
           <div className="row">
-            <div className="col-lg-9">
+            <div className="col-lg-9 col-sm-12">
               <div className="left_section_container">
                 <div className="">
                   <div className="top_left_section_container">
                     <div className="top_left_section">
-                      <div className="top_left_top">
+                      <div className="top_left_top col-sm-12">
                         <div className="top_left_card1">
                           <div className="top_left_card1_left">
                             <p>
@@ -188,7 +188,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-12">
               <div className="right_section_container">
                 <div className="card3">
                   <div className="wireless_earbuds_container">
@@ -337,7 +337,7 @@ const Main = () => {
       </div>
       <footer className="footer_container">
         <div className="container">
-          <div className="row d-flex align-items-center">
+          <div className="row d-flex align-items-center   "  >
             <div className="col">
               <div className="left_footer_container">
              <div className="footer_logo">

@@ -61,6 +61,7 @@
 }
 .banner_image_container img{
     width: 100%;
+    height: 100vh;
 }
 .banner_container{
     position: relative;
@@ -224,4 +225,39 @@ border-left: 5px solid #4172DC;
     }
     .footer_gmail__register_container p{
 margin-bottom: 1.5rem;
+    }
+    /* ///// media queries///// */
+    @media(max-width:800px){
+        .mid_section{
+            display: none;
+        }
+    }
+    @media(max-width:425px){
+        .banner_image_decription_container h3 {
+            font-size: 16px;
+            line-height: 28px;
+           
+        }
+        .banner_image_decription_container p {
+            font-size: 12px;
+           
+            line-height: 24px;
+            width: 100%;
+            margin-top: 12px;
+        }
+        .banner_date {
+          
+            margin: 12px 0px;
+        }
+        .banner_image_container img {
+            /* width: 100%; */
+            height: 80vh;
+        }
+        .top_left_card1 p:first-child {
+            font-size: 12px;
+        }
+        .top_left_card1 p:nth-child(2) {
+            font-size: 10px;
+            line-height: 15px;
+        }
     }
