@@ -18,7 +18,7 @@ import image from "../assets/images/model_images/image.png";
 import image_229 from "../assets/images/model_images/image_229.png";
 import image_231 from "../assets/images/model_images/image_231.png";
 import image_299 from "../assets/images/model_images/image_299.png";
-
+import send from '../assets/images/footer_image/send.png'
 const Main = () => {
   return (
     <div className="main_container">
@@ -335,6 +335,45 @@ const Main = () => {
           <img src={image_299} alt="image_299" className="img-fluid" />
         </div>
       </div>
+      <footer className="footer_container">
+        <div className="container">
+          <div className="row d-flex align-items-center">
+            <div className="col">
+              <div className="left_footer_container">
+             <div className="footer_logo">
+             <img src={logo} alt="logo" />
+             </div>
+             <div className="footer_gmail__register_container">
+<p> Register your email not to miss the last minutes off+ Free delivery</p>
+<div class="input-group form_gmail_container">
+  <input type="text" class="form-control" aria-label="email"placeholder="Enter your email" />
+  <button type="button" class="btn btn-light form_button_container"><img src={send} alt="send" /></button>
+</div>
+             </div>
+              </div>
+            </div>
+            <div className="col">
+
+              <table class="table_  table-striped">
+  
+  <tbody>
+    <tr className="table_row">
+      <td >Contact Us</td>
+      <td>Advertise</td>
+      <td>Work with Us</td>
+    </tr>
+    <tr className="table_row">
+      <td>Partners</td>
+      <td>Terms of Service</td>
+      <td>Subscriptions</td>
+    </tr>
+   
+  </tbody>
+</table>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
