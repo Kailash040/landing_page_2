@@ -18,7 +18,7 @@ import image from "../assets/images/model_images/image.png";
 import image_229 from "../assets/images/model_images/image_229.png";
 import image_231 from "../assets/images/model_images/image_231.png";
 import image_299 from "../assets/images/model_images/image_299.png";
-import send from '../assets/images/footer_image/send.png'
+import send from "../assets/images/footer_image/send.png";
 const Main = () => {
   return (
     <div className="main_container">
@@ -117,22 +117,19 @@ const Main = () => {
                               In this captivating scene, a stylish woman stands
                               confidently against a pristine backdrop, capturing
                               the essence of summer's allure. Bathed in the
-                              gentle sunlight, she emanates an air of effortless
-                              chic. Her outfit is a harmonious blend of
-                              contemporary trends and timeless elegance,
-                              perfectly attuned to the vibrant season.
+                              gentle 
                             </p>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary card_button">
                               Read more
                             </button>
                           </div>
                           <div className="top_left_card1_rigth">
-                            <img src={style_women} className="" alt="" />
+                            <img src={style_women} className="img-fluid_1" alt="" />
                           </div>
                         </div>
                         <div className="top_left_card2">
                           <div className="card2">
-                            <img src={Card} alt="card" />
+                            <img src={Card} alt="card" className="img-fluid_2" />
                           </div>
                         </div>
                       </div>
@@ -326,8 +323,7 @@ const Main = () => {
       </article>
       <div className="model_container_img row">
         <div className="left_img_container col-lg-9">
-         
-          <img src={image_229} alt="image_229" style={{"width":"100%"}} />
+          <img src={image_229} alt="image_229" style={{ width: "100%" }} />
         </div>
         <div className="right_img_container col-lg-3">
           <img src={image} alt="image" className="img-fluid" />
@@ -337,39 +333,50 @@ const Main = () => {
       </div>
       <footer className="footer_container">
         <div className="container">
-          <div className="row d-flex align-items-center   "  >
+          <div className="row d-flex align-items-center   ">
             <div className="col">
               <div className="left_footer_container">
-             <div className="footer_logo">
-             <img src={logo} alt="logo" />
-             </div>
-             <div className="footer_gmail__register_container">
-<p> Register your email not to miss the last minutes off+ Free delivery</p>
-<div class="input-group form_gmail_container">
-  <input type="text" class="form-control" aria-label="email"placeholder="Enter your email" />
-  <button type="button" class="btn btn-light form_button_container"><img src={send} alt="send" /></button>
-</div>
-             </div>
+                <div className="footer_logo">
+                  <img src={logo} alt="logo" />
+                </div>
+                <div className="footer_gmail__register_container">
+                  <p>
+                    {" "}
+                    Register your email not to miss the last minutes off+ Free
+                    delivery
+                  </p>
+                  <div class="input-group form_gmail_container">
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="email"
+                      placeholder="Enter your email"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-light form_button_container"
+                    >
+                      <img src={send} alt="send" />
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="col">
-
               <table class="table_  table-striped">
-  
-  <tbody>
-    <tr className="table_row">
-      <td >Contact Us</td>
-      <td>Advertise</td>
-      <td>Work with Us</td>
-    </tr>
-    <tr className="table_row">
-      <td>Partners</td>
-      <td>Terms of Service</td>
-      <td>Subscriptions</td>
-    </tr>
-   
-  </tbody>
-</table>
+                <tbody>
+                  <tr className="table_row">
+                    <td>Contact Us</td>
+                    <td>Advertise</td>
+                    <td>Work with Us</td>
+                  </tr>
+                  <tr className="table_row">
+                    <td>Partners</td>
+                    <td>Terms of Service</td>
+                    <td>Subscriptions</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
