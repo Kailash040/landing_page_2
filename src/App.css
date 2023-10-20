@@ -189,7 +189,6 @@
 }
 .footer_container {
   margin-top: 5rem;
-  /* margin-bottom: 5rem; */
   padding: 5rem 0px;
   background-color: #d1e2eb;
 }
@@ -291,16 +290,13 @@
     padding: 2rem 0px;
   }
 }
-@media screen and  (min-width:991px) and (max-width: 1200px){
-.img-fluid_1{
-width: 250px;
-height:335px;
-
-}
-.img-fluid_2{
-  width: 205px;
-    height:335px;
-
-
-}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .img-fluid_1 {
+    width: 250px;
+    height: 335px;
+  }
+  .img-fluid_2 {
+    width: 205px;
+    height: 335px;
+  }
 }
