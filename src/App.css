@@ -223,7 +223,7 @@
     display: none;
   }
 }
-@media (max-width: 478px) {
+@media (max-width: 991px) {
   .banner_image_decription_container h3 {
     font-size: 16px;
     line-height: 28px;
@@ -262,7 +262,7 @@
   .top_left_card1 {
     display: flex;
     gap: 10px;
-    align-items: start;
+    align-items: center;
   }
   .card_button {
     font-size: 7.35px !important;
@@ -274,7 +274,7 @@
     flex-wrap: wrap;
   }
   .card2 {
-    width: 70%;
+    width: 40%;
     margin: auto;
   }
   .right_section_container {
