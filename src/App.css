@@ -291,3 +291,16 @@
     padding: 2rem 0px;
   }
 }
+@media screen and  (min-width:991px) and (max-width: 1200px){
+.img-fluid_1{
+width: 250px;
+height:335px;
+
+}
+.img-fluid_2{
+  width: 205px;
+    height:335px;
+
+
+}
+}
